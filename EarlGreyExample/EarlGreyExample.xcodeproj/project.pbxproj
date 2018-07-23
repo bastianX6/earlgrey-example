@@ -31,6 +31,16 @@
 		033C5963210571FE008F611F /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033C5962210571FE008F611F /* UIKitExtensions.swift */; };
 		033C596721057BF9008F611F /* Search.strings in Resources */ = {isa = PBXBuildFile; fileRef = 033C596921057BF9008F611F /* Search.strings */; };
 		033C596B21057C47008F611F /* SearchLocalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033C596A21057C47008F611F /* SearchLocalizer.swift */; };
+		033C596D21058648008F611F /* DetailResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033C596C21058648008F611F /* DetailResultModel.swift */; };
+		033C597521058760008F611F /* LookupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033C596E21058760008F611F /* LookupViewController.swift */; };
+		033C597621058760008F611F /* LookupWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033C596F21058760008F611F /* LookupWireframe.swift */; };
+		033C597721058760008F611F /* LookupInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033C597021058760008F611F /* LookupInteractor.swift */; };
+		033C597821058760008F611F /* LookupRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033C597121058760008F611F /* LookupRouter.swift */; };
+		033C597921058760008F611F /* LookupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 033C597221058760008F611F /* LookupViewController.xib */; };
+		033C597A21058760008F611F /* LookupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033C597321058760008F611F /* LookupPresenter.swift */; };
+		033C597B21058760008F611F /* LookupContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033C597421058760008F611F /* LookupContract.swift */; };
+		033C598021059139008F611F /* Lookup.strings in Resources */ = {isa = PBXBuildFile; fileRef = 033C598221059139008F611F /* Lookup.strings */; };
+		033C59842105914D008F611F /* LookupLocalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033C59832105914D008F611F /* LookupLocalizer.swift */; };
 		342BABED3E51EEFF2119E7C7 /* Pods_EarlGreyExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D9B706E2D61311DF9B8305 /* Pods_EarlGreyExampleTests.framework */; };
 		DED15E498EE0009EEA104814 /* Pods_EarlGreyExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C853226CE78C60DE9503894 /* Pods_EarlGreyExample.framework */; };
 		EEF2FD42095E729C428028BC /* Pods_EarlGreyExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B027DF15E4B8796DCF3B229B /* Pods_EarlGreyExampleUITests.framework */; };
@@ -84,6 +94,16 @@
 		033C5962210571FE008F611F /* UIKitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
 		033C596821057BF9008F611F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Search.strings; sourceTree = "<group>"; };
 		033C596A21057C47008F611F /* SearchLocalizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLocalizer.swift; sourceTree = "<group>"; };
+		033C596C21058648008F611F /* DetailResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailResultModel.swift; sourceTree = "<group>"; };
+		033C596E21058760008F611F /* LookupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupViewController.swift; sourceTree = "<group>"; };
+		033C596F21058760008F611F /* LookupWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupWireframe.swift; sourceTree = "<group>"; };
+		033C597021058760008F611F /* LookupInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupInteractor.swift; sourceTree = "<group>"; };
+		033C597121058760008F611F /* LookupRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupRouter.swift; sourceTree = "<group>"; };
+		033C597221058760008F611F /* LookupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LookupViewController.xib; sourceTree = "<group>"; };
+		033C597321058760008F611F /* LookupPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupPresenter.swift; sourceTree = "<group>"; };
+		033C597421058760008F611F /* LookupContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupContract.swift; sourceTree = "<group>"; };
+		033C598121059139008F611F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Lookup.strings; sourceTree = "<group>"; };
+		033C59832105914D008F611F /* LookupLocalizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupLocalizer.swift; sourceTree = "<group>"; };
 		0C853226CE78C60DE9503894 /* Pods_EarlGreyExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EarlGreyExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		387794956B78859B9BF1A537 /* Pods-EarlGreyExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGreyExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EarlGreyExampleUITests/Pods-EarlGreyExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		60D9B706E2D61311DF9B8305 /* Pods_EarlGreyExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EarlGreyExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,6 +201,13 @@
 		032FCA1020FD72DD00E58C38 /* Lookup */ = {
 			isa = PBXGroup;
 			children = (
+				033C597D21059116008F611F /* Resources */,
+				033C597421058760008F611F /* LookupContract.swift */,
+				033C597021058760008F611F /* LookupInteractor.swift */,
+				033C597321058760008F611F /* LookupPresenter.swift */,
+				033C597121058760008F611F /* LookupRouter.swift */,
+				033C596F21058760008F611F /* LookupWireframe.swift */,
+				033C597C21058A95008F611F /* ViewControllers */,
 			);
 			path = Lookup;
 			sourceTree = "<group>";
@@ -242,6 +269,7 @@
 			isa = PBXGroup;
 			children = (
 				033C59592105683F008F611F /* SearchResultModel.swift */,
+				033C596C21058648008F611F /* DetailResultModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -277,6 +305,24 @@
 			children = (
 				033C596921057BF9008F611F /* Search.strings */,
 				033C596A21057C47008F611F /* SearchLocalizer.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		033C597C21058A95008F611F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				033C596E21058760008F611F /* LookupViewController.swift */,
+				033C597221058760008F611F /* LookupViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		033C597D21059116008F611F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				033C598221059139008F611F /* Lookup.strings */,
+				033C59832105914D008F611F /* LookupLocalizer.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -413,8 +459,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				033C597921058760008F611F /* LookupViewController.xib in Resources */,
 				031BD8EC20FD6C24003438D8 /* LaunchScreen.storyboard in Resources */,
 				033C596721057BF9008F611F /* Search.strings in Resources */,
+				033C598021059139008F611F /* Lookup.strings in Resources */,
 				031BD8E920FD6C24003438D8 /* Assets.xcassets in Resources */,
 				032FCA1E20FD733A00E58C38 /* SearchViewController.xib in Resources */,
 				033C595F21056ECE008F611F /* SearchTableViewCell.xib in Resources */,
@@ -538,19 +586,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				032FCA2920FD7B6100E58C38 /* ItunesDataSoruce.swift in Sources */,
+				033C59842105914D008F611F /* LookupLocalizer.swift in Sources */,
+				033C596D21058648008F611F /* DetailResultModel.swift in Sources */,
+				033C597A21058760008F611F /* LookupPresenter.swift in Sources */,
+				033C597521058760008F611F /* LookupViewController.swift in Sources */,
 				033C5963210571FE008F611F /* UIKitExtensions.swift in Sources */,
 				032FCA1D20FD733A00E58C38 /* SearchRouter.swift in Sources */,
 				032FCA2520FD758400E58C38 /* ItunesElement.swift in Sources */,
+				033C597B21058760008F611F /* LookupContract.swift in Sources */,
 				032FCA1B20FD733A00E58C38 /* SearchWireframe.swift in Sources */,
 				030851CE20FD80700058C8BB /* ItunesRepositoryProtocol.swift in Sources */,
 				032FCA1A20FD733A00E58C38 /* SearchViewController.swift in Sources */,
 				032FCA2020FD733A00E58C38 /* SearchContract.swift in Sources */,
 				033C596B21057C47008F611F /* SearchLocalizer.swift in Sources */,
 				032FCA2720FD7A9D00E58C38 /* ItunesDataSourceProtocol.swift in Sources */,
+				033C597621058760008F611F /* LookupWireframe.swift in Sources */,
+				033C597721058760008F611F /* LookupInteractor.swift in Sources */,
 				031BD8E220FD6C23003438D8 /* AppDelegate.swift in Sources */,
 				032FCA1C20FD733A00E58C38 /* SearchInteractor.swift in Sources */,
 				030851D020FD814F0058C8BB /* ItunesRepository.swift in Sources */,
 				032FCA2B20FD7CFF00E58C38 /* ItunesSearchResponse.swift in Sources */,
+				033C597821058760008F611F /* LookupRouter.swift in Sources */,
 				033C595E21056ECE008F611F /* SearchTableViewCell.swift in Sources */,
 				032FCA1F20FD733A00E58C38 /* SearchPresenter.swift in Sources */,
 				033C595A2105683F008F611F /* SearchResultModel.swift in Sources */,
@@ -603,6 +659,14 @@
 				033C596821057BF9008F611F /* en */,
 			);
 			name = Search.strings;
+			sourceTree = "<group>";
+		};
+		033C598221059139008F611F /* Lookup.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				033C598121059139008F611F /* en */,
+			);
+			name = Lookup.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

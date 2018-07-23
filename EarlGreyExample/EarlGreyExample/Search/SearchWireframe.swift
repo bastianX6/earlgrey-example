@@ -12,7 +12,7 @@ class SearchWireframe: SearchWireframeProtocol {
         let navigation = UINavigationController(rootViewController: view)
 
         interactor.delegate = presenter
-        router.viewController = view
+        router.viewController = navigation
         presenter.view = view
 
         return navigation

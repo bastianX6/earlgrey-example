@@ -16,6 +16,7 @@ class SearchViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupTableView()
+        self.title = SearchLocalizer.localizedString("search.mainView.title", comment: "")
     }
 
     private func setupTableView() {

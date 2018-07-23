@@ -15,6 +15,9 @@ class SearchRouter: SearchRouterProtocol {
     }
 
     func presentDetailPage(model: SearchResultModelProtocol) {
-
+        if let navController = viewController as? UINavigationController, let trackId = model.trackId {
+            let lookupVC = LookupWireframe.assemble(id: trackId)
+            navController.pushViewController(lookupVC, animated: true)
+        }
     }
 }

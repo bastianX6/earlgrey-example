@@ -1,3 +1,4 @@
 "search.errorAlert.title" = "Error";
 "search.errorAlert.message" = "Your search failed. \nError: %@";
 "search.errorAlert.okButton" = "Mmm... Ok";
+"search.mainView.title" = "Search";

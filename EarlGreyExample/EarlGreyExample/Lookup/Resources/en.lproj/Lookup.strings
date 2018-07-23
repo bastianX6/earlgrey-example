@@ -1,0 +1,3 @@
+"lookup.errorAlert.title" = "Error";
+"lookup.errorAlert.message" = "Load detail failed. \nError: %@";
+"lookup.errorAlert.okButton" = "Seriously?";
