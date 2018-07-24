@@ -12,8 +12,9 @@ target 'EarlGreyExample' do
     pod 'EarlGrey'
   end
 
-  target 'EarlGreyExampleUITests' do
-    inherit! :search_paths
+  target 'SenchaTests' do
+      inherit! :search_paths
+      pod 'Sencha'
   end
 
 end

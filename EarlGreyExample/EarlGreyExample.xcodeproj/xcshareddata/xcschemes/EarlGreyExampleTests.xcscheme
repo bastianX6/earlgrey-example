@@ -22,6 +22,16 @@
                ReferencedContainer = "container:EarlGreyExample.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "031013972106E38000BE1CF9"
+               BuildableName = "SenchaTests.xctest"
+               BlueprintName = "SenchaTests"
+               ReferencedContainer = "container:EarlGreyExample.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <AdditionalOptions>
       </AdditionalOptions>

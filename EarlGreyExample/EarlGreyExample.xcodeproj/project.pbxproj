@@ -19,6 +19,16 @@
 		0310138F2106D66D00BE1CF9 /* lookup15.json in Resources */ = {isa = PBXBuildFile; fileRef = 0310138E2106D66D00BE1CF9 /* lookup15.json */; };
 		031013912106D6AA00BE1CF9 /* MockUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031013902106D6AA00BE1CF9 /* MockUtils.swift */; };
 		031013932106DC0000BE1CF9 /* LookupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031013922106DC0000BE1CF9 /* LookupTests.swift */; };
+		031013A52106E43300BE1CF9 /* IntegrationTestsSencha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031013A42106E43300BE1CF9 /* IntegrationTestsSencha.swift */; };
+		031013A82106E5E700BE1CF9 /* XCTestCase+Sencha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031013A72106E5E700BE1CF9 /* XCTestCase+Sencha.swift */; };
+		031013A92106E88000BE1CF9 /* MockUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031013902106D6AA00BE1CF9 /* MockUtils.swift */; };
+		031013AA2106E88500BE1CF9 /* ItunesDataSourceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031013852106D3FD00BE1CF9 /* ItunesDataSourceMock.swift */; };
+		031013AC2106E8C100BE1CF9 /* SearchTestSencha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031013AB2106E8C100BE1CF9 /* SearchTestSencha.swift */; };
+		031013B22106EA9700BE1CF9 /* search.json in Resources */ = {isa = PBXBuildFile; fileRef = 031013AE2106EA9700BE1CF9 /* search.json */; };
+		031013B32106EA9700BE1CF9 /* lookup1.json in Resources */ = {isa = PBXBuildFile; fileRef = 031013AF2106EA9700BE1CF9 /* lookup1.json */; };
+		031013B42106EA9700BE1CF9 /* lookup15.json in Resources */ = {isa = PBXBuildFile; fileRef = 031013B02106EA9700BE1CF9 /* lookup15.json */; };
+		031013B52106EA9700BE1CF9 /* lookup0.json in Resources */ = {isa = PBXBuildFile; fileRef = 031013B12106EA9700BE1CF9 /* lookup0.json */; };
+		031013B72106EB4500BE1CF9 /* LookupTestSencha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031013B62106EB4500BE1CF9 /* LookupTestSencha.swift */; };
 		031BD8E220FD6C23003438D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031BD8E120FD6C23003438D8 /* AppDelegate.swift */; };
 		031BD8E920FD6C24003438D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 031BD8E820FD6C24003438D8 /* Assets.xcassets */; };
 		031BD8EC20FD6C24003438D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031BD8EA20FD6C24003438D8 /* LaunchScreen.storyboard */; };
@@ -51,10 +61,18 @@
 		033C59842105914D008F611F /* LookupLocalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033C59832105914D008F611F /* LookupLocalizer.swift */; };
 		03BC7D7A2106B7DF00CDDFE6 /* EarlGrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BC7D792106B7DF00CDDFE6 /* EarlGrey.swift */; };
 		342BABED3E51EEFF2119E7C7 /* Pods_EarlGreyExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D9B706E2D61311DF9B8305 /* Pods_EarlGreyExampleTests.framework */; };
+		BC733BB12526DB0C8CC76B6B /* Pods_SenchaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27459EA40A2E34CE9182CAB /* Pods_SenchaTests.framework */; };
 		DED15E498EE0009EEA104814 /* Pods_EarlGreyExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C853226CE78C60DE9503894 /* Pods_EarlGreyExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0310139D2106E38100BE1CF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 031BD8D620FD6C23003438D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 031BD8DD20FD6C23003438D8;
+			remoteInfo = EarlGreyExample;
+		};
 		031BD8F320FD6C24003438D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 031BD8D620FD6C23003438D8 /* Project object */;
@@ -77,6 +95,16 @@
 		0310138E2106D66D00BE1CF9 /* lookup15.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = lookup15.json; sourceTree = "<group>"; };
 		031013902106D6AA00BE1CF9 /* MockUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUtils.swift; sourceTree = "<group>"; };
 		031013922106DC0000BE1CF9 /* LookupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupTests.swift; sourceTree = "<group>"; };
+		031013982106E38000BE1CF9 /* SenchaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SenchaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0310139C2106E38100BE1CF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		031013A42106E43300BE1CF9 /* IntegrationTestsSencha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrationTestsSencha.swift; sourceTree = "<group>"; };
+		031013A72106E5E700BE1CF9 /* XCTestCase+Sencha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Sencha.swift"; sourceTree = "<group>"; };
+		031013AB2106E8C100BE1CF9 /* SearchTestSencha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTestSencha.swift; sourceTree = "<group>"; };
+		031013AE2106EA9700BE1CF9 /* search.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search.json; sourceTree = "<group>"; };
+		031013AF2106EA9700BE1CF9 /* lookup1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lookup1.json; sourceTree = "<group>"; };
+		031013B02106EA9700BE1CF9 /* lookup15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lookup15.json; sourceTree = "<group>"; };
+		031013B12106EA9700BE1CF9 /* lookup0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lookup0.json; sourceTree = "<group>"; };
+		031013B62106EB4500BE1CF9 /* LookupTestSencha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupTestSencha.swift; sourceTree = "<group>"; };
 		031BD8DE20FD6C23003438D8 /* EarlGreyExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarlGreyExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		031BD8E120FD6C23003438D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		031BD8E820FD6C24003438D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -116,7 +144,10 @@
 		387794956B78859B9BF1A537 /* Pods-EarlGreyExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGreyExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EarlGreyExampleUITests/Pods-EarlGreyExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		60D9B706E2D61311DF9B8305 /* Pods_EarlGreyExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EarlGreyExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6221662735C65D102AD8DC4F /* Pods-EarlGreyExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGreyExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-EarlGreyExample/Pods-EarlGreyExample.release.xcconfig"; sourceTree = "<group>"; };
+		64AB3BAF29FB836851F043E0 /* Pods-SenchaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SenchaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SenchaTests/Pods-SenchaTests.release.xcconfig"; sourceTree = "<group>"; };
 		B027DF15E4B8796DCF3B229B /* Pods_EarlGreyExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EarlGreyExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27459EA40A2E34CE9182CAB /* Pods_SenchaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SenchaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9C16F50576906E7544F7AD /* Pods-SenchaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SenchaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SenchaTests/Pods-SenchaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3B0A3BFAB6E7B21CD8CBFE6 /* Pods-EarlGreyExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGreyExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EarlGreyExampleTests/Pods-EarlGreyExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D1E8CF5FF1829A75F3E0AF6B /* Pods-EarlGreyExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGreyExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EarlGreyExample/Pods-EarlGreyExample.debug.xcconfig"; sourceTree = "<group>"; };
 		DA9486609DC95B566EFC5023 /* Pods-EarlGreyExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGreyExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EarlGreyExampleUITests/Pods-EarlGreyExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +155,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		031013952106E38000BE1CF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC733BB12526DB0C8CC76B6B /* Pods_SenchaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		031BD8DB20FD6C23003438D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -174,11 +213,60 @@
 			path = JSON;
 			sourceTree = "<group>";
 		};
+		031013992106E38000BE1CF9 /* SenchaTests */ = {
+			isa = PBXGroup;
+			children = (
+				031013A62106E5B400BE1CF9 /* Utils */,
+				031013A32106E40A00BE1CF9 /* Tests */,
+				031013A22106E3FA00BE1CF9 /* Mocks */,
+				0310139C2106E38100BE1CF9 /* Info.plist */,
+			);
+			path = SenchaTests;
+			sourceTree = "<group>";
+		};
+		031013A22106E3FA00BE1CF9 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				031013AD2106EA6C00BE1CF9 /* JSON */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		031013A32106E40A00BE1CF9 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				031013A42106E43300BE1CF9 /* IntegrationTestsSencha.swift */,
+				031013AB2106E8C100BE1CF9 /* SearchTestSencha.swift */,
+				031013B62106EB4500BE1CF9 /* LookupTestSencha.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		031013A62106E5B400BE1CF9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				031013A72106E5E700BE1CF9 /* XCTestCase+Sencha.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		031013AD2106EA6C00BE1CF9 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				031013B12106EA9700BE1CF9 /* lookup0.json */,
+				031013AF2106EA9700BE1CF9 /* lookup1.json */,
+				031013B02106EA9700BE1CF9 /* lookup15.json */,
+				031013AE2106EA9700BE1CF9 /* search.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
 		031BD8D520FD6C23003438D8 = {
 			isa = PBXGroup;
 			children = (
 				031BD8E020FD6C23003438D8 /* EarlGreyExample */,
 				031BD8F520FD6C24003438D8 /* EarlGreyExampleTests */,
+				031013992106E38000BE1CF9 /* SenchaTests */,
 				031BD8DF20FD6C23003438D8 /* Products */,
 				FF4418FF9B8362B06C2CF62A /* Pods */,
 				1C5FA10CC9ECC5105543920E /* Frameworks */,
@@ -190,6 +278,7 @@
 			children = (
 				031BD8DE20FD6C23003438D8 /* EarlGreyExample.app */,
 				031BD8F220FD6C24003438D8 /* EarlGreyExampleTests.xctest */,
+				031013982106E38000BE1CF9 /* SenchaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -356,6 +445,7 @@
 				0C853226CE78C60DE9503894 /* Pods_EarlGreyExample.framework */,
 				60D9B706E2D61311DF9B8305 /* Pods_EarlGreyExampleTests.framework */,
 				B027DF15E4B8796DCF3B229B /* Pods_EarlGreyExampleUITests.framework */,
+				B27459EA40A2E34CE9182CAB /* Pods_SenchaTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -369,6 +459,8 @@
 				E43A5378BDEF9050DED33D5B /* Pods-EarlGreyExampleTests.release.xcconfig */,
 				DA9486609DC95B566EFC5023 /* Pods-EarlGreyExampleUITests.debug.xcconfig */,
 				387794956B78859B9BF1A537 /* Pods-EarlGreyExampleUITests.release.xcconfig */,
+				BB9C16F50576906E7544F7AD /* Pods-SenchaTests.debug.xcconfig */,
+				64AB3BAF29FB836851F043E0 /* Pods-SenchaTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -376,6 +468,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		031013972106E38000BE1CF9 /* SenchaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0310139F2106E38100BE1CF9 /* Build configuration list for PBXNativeTarget "SenchaTests" */;
+			buildPhases = (
+				BBB9A63DA72754E07CBF1535 /* [CP] Check Pods Manifest.lock */,
+				031013942106E38000BE1CF9 /* Sources */,
+				031013952106E38000BE1CF9 /* Frameworks */,
+				031013962106E38000BE1CF9 /* Resources */,
+				D5A03696FDAC9603FA14EABC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0310139E2106E38100BE1CF9 /* PBXTargetDependency */,
+			);
+			name = SenchaTests;
+			productName = SenchaTests;
+			productReference = 031013982106E38000BE1CF9 /* SenchaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		031BD8DD20FD6C23003438D8 /* EarlGreyExample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 031BD90620FD6C24003438D8 /* Build configuration list for PBXNativeTarget "EarlGreyExample" */;
@@ -426,6 +538,11 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Bastián Véliz Vega";
 				TargetAttributes = {
+					031013972106E38000BE1CF9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+						TestTargetID = 031BD8DD20FD6C23003438D8;
+					};
 					031BD8DD20FD6C23003438D8 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -450,11 +567,23 @@
 			targets = (
 				031BD8DD20FD6C23003438D8 /* EarlGreyExample */,
 				031BD8F120FD6C24003438D8 /* EarlGreyExampleTests */,
+				031013972106E38000BE1CF9 /* SenchaTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		031013962106E38000BE1CF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031013B42106EA9700BE1CF9 /* lookup15.json in Resources */,
+				031013B22106EA9700BE1CF9 /* search.json in Resources */,
+				031013B52106EA9700BE1CF9 /* lookup0.json in Resources */,
+				031013B32106EA9700BE1CF9 /* lookup1.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		031BD8DC20FD6C23003438D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -553,6 +682,24 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EarlGreyExample/Pods-EarlGreyExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BBB9A63DA72754E07CBF1535 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SenchaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		CE620DFF413D4308AC60E2BC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -571,9 +718,42 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D5A03696FDAC9603FA14EABC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SenchaTests/Pods-SenchaTests-frameworks.sh",
+				"${PODS_ROOT}/EarlGrey/EarlGrey/EarlGrey.framework",
+				"${BUILT_PRODUCTS_DIR}/Sencha/Sencha.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EarlGrey.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sencha.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SenchaTests/Pods-SenchaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		031013942106E38000BE1CF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031013A82106E5E700BE1CF9 /* XCTestCase+Sencha.swift in Sources */,
+				031013B72106EB4500BE1CF9 /* LookupTestSencha.swift in Sources */,
+				031013A52106E43300BE1CF9 /* IntegrationTestsSencha.swift in Sources */,
+				031013AC2106E8C100BE1CF9 /* SearchTestSencha.swift in Sources */,
+				031013AA2106E88500BE1CF9 /* ItunesDataSourceMock.swift in Sources */,
+				031013A92106E88000BE1CF9 /* MockUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		031BD8DA20FD6C23003438D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -623,6 +803,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0310139E2106E38100BE1CF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 031BD8DD20FD6C23003438D8 /* EarlGreyExample */;
+			targetProxy = 0310139D2106E38100BE1CF9 /* PBXContainerItemProxy */;
+		};
 		031BD8F420FD6C24003438D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 031BD8DD20FD6C23003438D8 /* EarlGreyExample */;
@@ -658,6 +843,49 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		031013A02106E38100BE1CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB9C16F50576906E7544F7AD /* Pods-SenchaTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SenchaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bastianx6.SenchaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarlGreyExample.app/EarlGreyExample";
+			};
+			name = Debug;
+		};
+		031013A12106E38100BE1CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64AB3BAF29FB836851F043E0 /* Pods-SenchaTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SenchaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bastianx6.SenchaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarlGreyExample.app/EarlGreyExample";
+			};
+			name = Release;
+		};
 		031BD90420FD6C24003438D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -853,6 +1081,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0310139F2106E38100BE1CF9 /* Build configuration list for PBXNativeTarget "SenchaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031013A02106E38100BE1CF9 /* Debug */,
+				031013A12106E38100BE1CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		031BD8D920FD6C23003438D8 /* Build configuration list for PBXProject "EarlGreyExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
