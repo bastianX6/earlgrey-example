@@ -10,7 +10,7 @@ class ItunesDataSoruce: ItunesDataSourceProtocol {
         let text = text.replacingOccurrences(of: " ", with: "+")
         let url = URL(string: self.searchUrl)!
         let params =  [
-            "term" : text
+            "term": text
         ]
 
         Alamofire
@@ -33,7 +33,7 @@ class ItunesDataSoruce: ItunesDataSourceProtocol {
     func getDetail(forId id: Int64, success: @escaping (ItunesSearchResponse) -> Void, failure: @escaping (Error) -> Void) {
         let url = URL(string: self.lookupUrl)!
         let params =  [
-            "id" : id
+            "id": id
         ]
 
         Alamofire

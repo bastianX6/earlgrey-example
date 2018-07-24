@@ -9,11 +9,19 @@
 /* Begin PBXBuildFile section */
 		030851CE20FD80700058C8BB /* ItunesRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030851CD20FD80700058C8BB /* ItunesRepositoryProtocol.swift */; };
 		030851D020FD814F0058C8BB /* ItunesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030851CF20FD814F0058C8BB /* ItunesRepository.swift */; };
+		0310137E2106C16500BE1CF9 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310137D2106C16500BE1CF9 /* Protocols.swift */; };
+		031013802106C2F400BE1CF9 /* IntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310137F2106C2F400BE1CF9 /* IntegrationTests.swift */; };
+		031013842106D05000BE1CF9 /* SearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031013832106D05000BE1CF9 /* SearchTests.swift */; };
+		031013862106D3FD00BE1CF9 /* ItunesDataSourceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031013852106D3FD00BE1CF9 /* ItunesDataSourceMock.swift */; };
+		031013892106D59000BE1CF9 /* search.json in Resources */ = {isa = PBXBuildFile; fileRef = 031013882106D59000BE1CF9 /* search.json */; };
+		0310138B2106D5F900BE1CF9 /* lookup0.json in Resources */ = {isa = PBXBuildFile; fileRef = 0310138A2106D5F900BE1CF9 /* lookup0.json */; };
+		0310138D2106D63700BE1CF9 /* lookup1.json in Resources */ = {isa = PBXBuildFile; fileRef = 0310138C2106D63700BE1CF9 /* lookup1.json */; };
+		0310138F2106D66D00BE1CF9 /* lookup15.json in Resources */ = {isa = PBXBuildFile; fileRef = 0310138E2106D66D00BE1CF9 /* lookup15.json */; };
+		031013912106D6AA00BE1CF9 /* MockUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031013902106D6AA00BE1CF9 /* MockUtils.swift */; };
+		031013932106DC0000BE1CF9 /* LookupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031013922106DC0000BE1CF9 /* LookupTests.swift */; };
 		031BD8E220FD6C23003438D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031BD8E120FD6C23003438D8 /* AppDelegate.swift */; };
 		031BD8E920FD6C24003438D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 031BD8E820FD6C24003438D8 /* Assets.xcassets */; };
 		031BD8EC20FD6C24003438D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031BD8EA20FD6C24003438D8 /* LaunchScreen.storyboard */; };
-		031BD8F720FD6C24003438D8 /* EarlGreyExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031BD8F620FD6C24003438D8 /* EarlGreyExampleTests.swift */; };
-		031BD90220FD6C24003438D8 /* EarlGreyExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031BD90120FD6C24003438D8 /* EarlGreyExampleUITests.swift */; };
 		032FCA1A20FD733A00E58C38 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032FCA1320FD733A00E58C38 /* SearchViewController.swift */; };
 		032FCA1B20FD733A00E58C38 /* SearchWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032FCA1420FD733A00E58C38 /* SearchWireframe.swift */; };
 		032FCA1C20FD733A00E58C38 /* SearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032FCA1520FD733A00E58C38 /* SearchInteractor.swift */; };
@@ -41,20 +49,13 @@
 		033C597B21058760008F611F /* LookupContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033C597421058760008F611F /* LookupContract.swift */; };
 		033C598021059139008F611F /* Lookup.strings in Resources */ = {isa = PBXBuildFile; fileRef = 033C598221059139008F611F /* Lookup.strings */; };
 		033C59842105914D008F611F /* LookupLocalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033C59832105914D008F611F /* LookupLocalizer.swift */; };
+		03BC7D7A2106B7DF00CDDFE6 /* EarlGrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BC7D792106B7DF00CDDFE6 /* EarlGrey.swift */; };
 		342BABED3E51EEFF2119E7C7 /* Pods_EarlGreyExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D9B706E2D61311DF9B8305 /* Pods_EarlGreyExampleTests.framework */; };
 		DED15E498EE0009EEA104814 /* Pods_EarlGreyExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C853226CE78C60DE9503894 /* Pods_EarlGreyExample.framework */; };
-		EEF2FD42095E729C428028BC /* Pods_EarlGreyExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B027DF15E4B8796DCF3B229B /* Pods_EarlGreyExampleUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		031BD8F320FD6C24003438D8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 031BD8D620FD6C23003438D8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 031BD8DD20FD6C23003438D8;
-			remoteInfo = EarlGreyExample;
-		};
-		031BD8FE20FD6C24003438D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 031BD8D620FD6C23003438D8 /* Project object */;
 			proxyType = 1;
@@ -66,17 +67,23 @@
 /* Begin PBXFileReference section */
 		030851CD20FD80700058C8BB /* ItunesRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesRepositoryProtocol.swift; sourceTree = "<group>"; };
 		030851CF20FD814F0058C8BB /* ItunesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesRepository.swift; sourceTree = "<group>"; };
+		0310137D2106C16500BE1CF9 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		0310137F2106C2F400BE1CF9 /* IntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrationTests.swift; sourceTree = "<group>"; };
+		031013832106D05000BE1CF9 /* SearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTests.swift; sourceTree = "<group>"; };
+		031013852106D3FD00BE1CF9 /* ItunesDataSourceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesDataSourceMock.swift; sourceTree = "<group>"; };
+		031013882106D59000BE1CF9 /* search.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = search.json; sourceTree = "<group>"; };
+		0310138A2106D5F900BE1CF9 /* lookup0.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = lookup0.json; sourceTree = "<group>"; };
+		0310138C2106D63700BE1CF9 /* lookup1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = lookup1.json; sourceTree = "<group>"; };
+		0310138E2106D66D00BE1CF9 /* lookup15.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = lookup15.json; sourceTree = "<group>"; };
+		031013902106D6AA00BE1CF9 /* MockUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUtils.swift; sourceTree = "<group>"; };
+		031013922106DC0000BE1CF9 /* LookupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupTests.swift; sourceTree = "<group>"; };
 		031BD8DE20FD6C23003438D8 /* EarlGreyExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarlGreyExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		031BD8E120FD6C23003438D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		031BD8E820FD6C24003438D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		031BD8EB20FD6C24003438D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		031BD8ED20FD6C24003438D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		031BD8F220FD6C24003438D8 /* EarlGreyExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarlGreyExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		031BD8F620FD6C24003438D8 /* EarlGreyExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlGreyExampleTests.swift; sourceTree = "<group>"; };
 		031BD8F820FD6C24003438D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		031BD8FD20FD6C24003438D8 /* EarlGreyExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarlGreyExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		031BD90120FD6C24003438D8 /* EarlGreyExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlGreyExampleUITests.swift; sourceTree = "<group>"; };
-		031BD90320FD6C24003438D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		032FCA1320FD733A00E58C38 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		032FCA1420FD733A00E58C38 /* SearchWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchWireframe.swift; sourceTree = "<group>"; };
 		032FCA1520FD733A00E58C38 /* SearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInteractor.swift; sourceTree = "<group>"; };
@@ -104,6 +111,7 @@
 		033C597421058760008F611F /* LookupContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupContract.swift; sourceTree = "<group>"; };
 		033C598121059139008F611F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Lookup.strings; sourceTree = "<group>"; };
 		033C59832105914D008F611F /* LookupLocalizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupLocalizer.swift; sourceTree = "<group>"; };
+		03BC7D792106B7DF00CDDFE6 /* EarlGrey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarlGrey.swift; sourceTree = "<group>"; };
 		0C853226CE78C60DE9503894 /* Pods_EarlGreyExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EarlGreyExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		387794956B78859B9BF1A537 /* Pods-EarlGreyExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGreyExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EarlGreyExampleUITests/Pods-EarlGreyExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		60D9B706E2D61311DF9B8305 /* Pods_EarlGreyExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EarlGreyExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,23 +140,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		031BD8FA20FD6C24003438D8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EEF2FD42095E729C428028BC /* Pods_EarlGreyExampleUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		031013812106C39F00BE1CF9 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0310137F2106C2F400BE1CF9 /* IntegrationTests.swift */,
+				031013832106D05000BE1CF9 /* SearchTests.swift */,
+				031013922106DC0000BE1CF9 /* LookupTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		031013822106C3AC00BE1CF9 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				031013872106D50700BE1CF9 /* JSON */,
+				031013852106D3FD00BE1CF9 /* ItunesDataSourceMock.swift */,
+				031013902106D6AA00BE1CF9 /* MockUtils.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		031013872106D50700BE1CF9 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				031013882106D59000BE1CF9 /* search.json */,
+				0310138A2106D5F900BE1CF9 /* lookup0.json */,
+				0310138C2106D63700BE1CF9 /* lookup1.json */,
+				0310138E2106D66D00BE1CF9 /* lookup15.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
 		031BD8D520FD6C23003438D8 = {
 			isa = PBXGroup;
 			children = (
 				031BD8E020FD6C23003438D8 /* EarlGreyExample */,
 				031BD8F520FD6C24003438D8 /* EarlGreyExampleTests */,
-				031BD90020FD6C24003438D8 /* EarlGreyExampleUITests */,
 				031BD8DF20FD6C23003438D8 /* Products */,
 				FF4418FF9B8362B06C2CF62A /* Pods */,
 				1C5FA10CC9ECC5105543920E /* Frameworks */,
@@ -160,7 +190,6 @@
 			children = (
 				031BD8DE20FD6C23003438D8 /* EarlGreyExample.app */,
 				031BD8F220FD6C24003438D8 /* EarlGreyExampleTests.xctest */,
-				031BD8FD20FD6C24003438D8 /* EarlGreyExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -183,19 +212,12 @@
 		031BD8F520FD6C24003438D8 /* EarlGreyExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				031BD8F620FD6C24003438D8 /* EarlGreyExampleTests.swift */,
+				031013822106C3AC00BE1CF9 /* Mocks */,
+				031013812106C39F00BE1CF9 /* Tests */,
+				03BC7D792106B7DF00CDDFE6 /* EarlGrey.swift */,
 				031BD8F820FD6C24003438D8 /* Info.plist */,
 			);
 			path = EarlGreyExampleTests;
-			sourceTree = "<group>";
-		};
-		031BD90020FD6C24003438D8 /* EarlGreyExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				031BD90120FD6C24003438D8 /* EarlGreyExampleUITests.swift */,
-				031BD90320FD6C24003438D8 /* Info.plist */,
-			);
-			path = EarlGreyExampleUITests;
 			sourceTree = "<group>";
 		};
 		032FCA1020FD72DD00E58C38 /* Lookup */ = {
@@ -233,6 +255,7 @@
 				032FCA2120FD73A600E58C38 /* DataSource */,
 				032FCA2320FD756900E58C38 /* Entities */,
 				032FCA2220FD73B100E58C38 /* Repository */,
+				0310137D2106C16500BE1CF9 /* Protocols.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -362,6 +385,7 @@
 				031BD8DB20FD6C23003438D8 /* Frameworks */,
 				031BD8DC20FD6C23003438D8 /* Resources */,
 				A8F25A56AE7C2BD7509A8128 /* [CP] Embed Pods Frameworks */,
+				03BC7D7B2106B8B800CDDFE6 /* Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -392,25 +416,6 @@
 			productReference = 031BD8F220FD6C24003438D8 /* EarlGreyExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		031BD8FC20FD6C24003438D8 /* EarlGreyExampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 031BD90C20FD6C24003438D8 /* Build configuration list for PBXNativeTarget "EarlGreyExampleUITests" */;
-			buildPhases = (
-				585337693A4B8A6FCC8BF32F /* [CP] Check Pods Manifest.lock */,
-				031BD8F920FD6C24003438D8 /* Sources */,
-				031BD8FA20FD6C24003438D8 /* Frameworks */,
-				031BD8FB20FD6C24003438D8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				031BD8FF20FD6C24003438D8 /* PBXTargetDependency */,
-			);
-			name = EarlGreyExampleUITests;
-			productName = EarlGreyExampleUITests;
-			productReference = 031BD8FD20FD6C24003438D8 /* EarlGreyExampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -425,10 +430,6 @@
 						CreatedOnToolsVersion = 9.4.1;
 					};
 					031BD8F120FD6C24003438D8 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 031BD8DD20FD6C23003438D8;
-					};
-					031BD8FC20FD6C24003438D8 = {
 						CreatedOnToolsVersion = 9.4.1;
 						TestTargetID = 031BD8DD20FD6C23003438D8;
 					};
@@ -449,7 +450,6 @@
 			targets = (
 				031BD8DD20FD6C23003438D8 /* EarlGreyExample */,
 				031BD8F120FD6C24003438D8 /* EarlGreyExampleTests */,
-				031BD8FC20FD6C24003438D8 /* EarlGreyExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -473,36 +473,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		031BD8FB20FD6C24003438D8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				0310138B2106D5F900BE1CF9 /* lookup0.json in Resources */,
+				0310138F2106D66D00BE1CF9 /* lookup15.json in Resources */,
+				031013892106D59000BE1CF9 /* search.json in Resources */,
+				0310138D2106D63700BE1CF9 /* lookup1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		585337693A4B8A6FCC8BF32F /* [CP] Check Pods Manifest.lock */ = {
+		03BC7D7B2106B8B800CDDFE6 /* Swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = Swiftlint;
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EarlGreyExampleUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\" --reporter xcode";
 		};
 		60BE0F314CE64B65AF23814E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -594,6 +587,7 @@
 				032FCA1D20FD733A00E58C38 /* SearchRouter.swift in Sources */,
 				032FCA2520FD758400E58C38 /* ItunesElement.swift in Sources */,
 				033C597B21058760008F611F /* LookupContract.swift in Sources */,
+				0310137E2106C16500BE1CF9 /* Protocols.swift in Sources */,
 				032FCA1B20FD733A00E58C38 /* SearchWireframe.swift in Sources */,
 				030851CE20FD80700058C8BB /* ItunesRepositoryProtocol.swift in Sources */,
 				032FCA1A20FD733A00E58C38 /* SearchViewController.swift in Sources */,
@@ -617,15 +611,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				031BD8F720FD6C24003438D8 /* EarlGreyExampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		031BD8F920FD6C24003438D8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				031BD90220FD6C24003438D8 /* EarlGreyExampleUITests.swift in Sources */,
+				031013842106D05000BE1CF9 /* SearchTests.swift in Sources */,
+				031013932106DC0000BE1CF9 /* LookupTests.swift in Sources */,
+				031013802106C2F400BE1CF9 /* IntegrationTests.swift in Sources */,
+				031013862106D3FD00BE1CF9 /* ItunesDataSourceMock.swift in Sources */,
+				031013912106D6AA00BE1CF9 /* MockUtils.swift in Sources */,
+				03BC7D7A2106B7DF00CDDFE6 /* EarlGrey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -636,11 +627,6 @@
 			isa = PBXTargetDependency;
 			target = 031BD8DD20FD6C23003438D8 /* EarlGreyExample */;
 			targetProxy = 031BD8F320FD6C24003438D8 /* PBXContainerItemProxy */;
-		};
-		031BD8FF20FD6C24003438D8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 031BD8DD20FD6C23003438D8 /* EarlGreyExample */;
-			targetProxy = 031BD8FE20FD6C24003438D8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -864,46 +850,6 @@
 			};
 			name = Release;
 		};
-		031BD90D20FD6C24003438D8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA9486609DC95B566EFC5023 /* Pods-EarlGreyExampleUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = EarlGreyExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = bastianx6.EarlGreyExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = EarlGreyExample;
-			};
-			name = Debug;
-		};
-		031BD90E20FD6C24003438D8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 387794956B78859B9BF1A537 /* Pods-EarlGreyExampleUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = EarlGreyExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = bastianx6.EarlGreyExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = EarlGreyExample;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -930,15 +876,6 @@
 			buildConfigurations = (
 				031BD90A20FD6C24003438D8 /* Debug */,
 				031BD90B20FD6C24003438D8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		031BD90C20FD6C24003438D8 /* Build configuration list for PBXNativeTarget "EarlGreyExampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				031BD90D20FD6C24003438D8 /* Debug */,
-				031BD90E20FD6C24003438D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

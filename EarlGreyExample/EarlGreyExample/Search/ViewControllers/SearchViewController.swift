@@ -15,6 +15,7 @@ class SearchViewController: UIViewController {
     // MARK: UIViewController lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.setAccessibilityIds()
         self.setupTableView()
         self.title = SearchLocalizer.localizedString("search.mainView.title", comment: "")
     }
@@ -76,5 +77,18 @@ extension SearchViewController: UITableViewDataSource {
 extension SearchViewController: UISearchBarDelegate {
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         self.presenter?.searchButtonTapped(text: searchBar.text ?? "")
+    }
+}
+
+extension SearchViewController: AccessibilityConfigurable {
+
+    func setAccessibilityIds() {
+        self.searchBar.accessibilityIdentifier = AcessibilityIds.searchBar
+        self.tableView.accessibilityIdentifier = AcessibilityIds.tableView
+    }
+
+    struct AcessibilityIds {
+        static let searchBar = SearchViewController.nameOfClass + ".searchBar"
+        static let tableView = SearchViewController.nameOfClass + ".tableView"
     }
 }

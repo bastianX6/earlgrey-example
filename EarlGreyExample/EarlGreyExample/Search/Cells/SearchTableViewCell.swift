@@ -15,7 +15,7 @@ class SearchTableViewCell: UITableViewCell {
         self.artistNameLabel.text = nil
     }
 
-    func setupCell(artistName: String?, trackName: String? , url: URL?) {
+    func setupCell(artistName: String?, trackName: String?, url: URL?) {
         artistNameLabel.text = artistName
         trackNameLabel.text = trackName
         artistImageView.sd_setImage(with: url)

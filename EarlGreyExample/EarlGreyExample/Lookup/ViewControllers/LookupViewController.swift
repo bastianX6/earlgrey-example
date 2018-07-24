@@ -17,6 +17,7 @@ class LookupViewController: UIViewController {
     // MARK: UIViewController lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.setAccessibilityIds()
         presenter?.loadDetailInformation()
     }
 }
@@ -27,5 +28,19 @@ extension LookupViewController: LookupViewProtocol {
         self.trackNameLabel.text = element.trackName
         self.artistNameLabel.text = element.artistName
         self.collectionNameLabel.text = element.collectionName
+    }
+}
+
+extension LookupViewController: AccessibilityConfigurable {
+    func setAccessibilityIds() {
+        self.trackNameLabel.accessibilityIdentifier = AccessibilityIds.trackNameLabel
+        self.collectionNameLabel.accessibilityIdentifier = AccessibilityIds.collectionNameLabel
+        self.artistNameLabel.accessibilityIdentifier = AccessibilityIds.artistNameLabel
+    }
+
+    struct AccessibilityIds {
+        static let trackNameLabel = LookupViewController.nameOfClass + ".trackNameLabel"
+        static let collectionNameLabel = LookupViewController.nameOfClass + ".collectionNameLabel"
+        static let artistNameLabel = LookupViewController.nameOfClass + ".artistNameLabel"
     }
 }

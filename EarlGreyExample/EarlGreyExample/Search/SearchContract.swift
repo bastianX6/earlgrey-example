@@ -1,7 +1,7 @@
 import UIKit
 
 protocol SearchWireframeProtocol: class {
-    static func assemble() -> UIViewController
+    static func assemble(dataSource: ItunesDataSourceProtocol) -> UIViewController
 }
 
 protocol SearchViewProtocol: class {

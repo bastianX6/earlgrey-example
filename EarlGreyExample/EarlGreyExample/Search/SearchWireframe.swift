@@ -1,9 +1,8 @@
 import UIKit
 
 class SearchWireframe: SearchWireframeProtocol {
-    
-    static func assemble() -> UIViewController {
-        let dataSource = ItunesDataSoruce()
+
+    static func assemble(dataSource: ItunesDataSourceProtocol = ItunesDataSoruce()) -> UIViewController {
         let repository = ItunesRepository(dataSource: dataSource)
         let interactor = SearchInteractor(repository: repository)
         let router = SearchRouter()
@@ -16,5 +15,5 @@ class SearchWireframe: SearchWireframeProtocol {
         presenter.view = view
 
         return navigation
-    } 
+    }
 }

@@ -1,7 +1,7 @@
 import UIKit
 
 protocol LookupWireframeProtocol: class {
-    static func assemble(id: Int64) -> UIViewController
+    static func assemble(id: Int64, dataSource: ItunesDataSourceProtocol) -> UIViewController
 }
 
 protocol LookupViewProtocol: class {

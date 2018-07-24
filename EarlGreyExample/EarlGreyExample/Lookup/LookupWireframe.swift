@@ -2,8 +2,7 @@ import UIKit
 
 class LookupWireframe: LookupWireframeProtocol {
 
-    static func assemble(id: Int64) -> UIViewController {
-        let dataSource = ItunesDataSoruce()
+    static func assemble(id: Int64, dataSource: ItunesDataSourceProtocol = ItunesDataSoruce()) -> UIViewController {
         let repository = ItunesRepository(dataSource: dataSource)
         let interactor = LookupInteractor(repository: repository)
         let router = LookupRouter()
@@ -15,5 +14,5 @@ class LookupWireframe: LookupWireframeProtocol {
         presenter.view = view
 
         return view
-    } 
+    }
 }

@@ -14,12 +14,6 @@ extension NSObject {
     }
 }
 
-extension UICollectionViewCell: ReusableIdentifierProtocol {
-    static var reusableIdentifier: String {
-        return nameOfClass
-    }
-}
-
 extension UITableViewCell: ReusableIdentifierProtocol {
     static var reusableIdentifier: String {
         return nameOfClass
@@ -27,12 +21,6 @@ extension UITableViewCell: ReusableIdentifierProtocol {
 }
 
 extension UIView: NibProtocol {
-    static var nib: UINib {
-        return UINib(nibName: nameOfClass, bundle: Bundle.main)
-    }
-}
-
-extension UIViewController: NibProtocol {
     static var nib: UINib {
         return UINib(nibName: nameOfClass, bundle: Bundle.main)
     }
